@@ -1,0 +1,702 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Huellitas de Amor | Veterinaria para Gatos</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* ===== BANNER MORADO FINAL ===== */
+        .contact_anipat.anipat_bg_1 {
+            background: linear-gradient(135deg, #4b247a 0%, #6f3fa1 50%, #8e50b8 100%) !important;
+            padding: 60px 0;
+        }
+
+        .contact_anipat .section_title h3,
+        .contact_anipat .section_title p {
+            color: #ffffff !important;
+        }
+
+        /* ===== BLOG DE GATITOS ===== */
+        #blog {
+            padding: 90px 0;
+            background: #fff8fb;
+        }
+
+        #blog .blog_intro {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        #blog .blog_intro h3 {
+            color: #6b3fa0;
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        #blog .blog_intro p {
+            color: #777;
+            font-size: 17px;
+        }
+
+        .cat_blog_card {
+            background: #fff;
+            border-radius: 18px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,.10);
+            transition: transform .3s ease, box-shadow .3s ease;
+            height: 100%;
+        }
+
+        .cat_blog_card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 12px 28px rgba(0,0,0,.15);
+        }
+
+        .cat_blog_card .blog_img {
+            width: 100%;
+            height: 250px;
+            overflow: hidden;
+        }
+
+        .cat_blog_card .blog_img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .cat_blog_card .blog_content {
+            padding: 25px;
+        }
+
+        .cat_blog_card .blog_content h4 {
+            color: #6b3fa0;
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+
+        .cat_blog_card .blog_content p {
+            color: #666;
+            line-height: 1.7;
+            margin-bottom: 10px;
+        }
+
+        .cat_blog_card .blog_content .frase {
+            color: #df7eaa;
+            font-style: italic;
+            font-weight: 600;
+            margin-top: 14px;
+        }
+
+        /* ===== INICIO HUELLITAS DE AMOR ===== */
+        .nombre-clinica {
+            font-size: 22px;
+            font-weight: 800;
+            color: #5b3b8a !important;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            margin-bottom: 12px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #ffffff;
+        }
+
+        .slider_text p {
+            line-height: 1.8;
+            max-width: 500px;
+        }
+
+        .slider_text p strong {
+            font-weight: 700;
+        }
+
+        .cat_hero_thumb {
+            width: 48%;
+            max-width: 650px;
+            height: auto;
+            bottom: 0;
+        }
+
+        .cat_hero_thumb img {
+            width: 100%;
+            max-height: 540px;
+            object-fit: contain;
+            object-position: bottom center;
+        }
+
+        @media (max-width: 767px) {
+            #blog { padding: 60px 0; }
+            #blog .blog_intro h3 { font-size: 32px; }
+        }
+
+        /* ===== SECCION ACERCA DE - HUELLITAS DE AMOR ===== */
+        .pet_care_area .pet_thumb {
+            background: linear-gradient(135deg, #7b4bb3, #a77bd3);
+            border-radius: 28px;
+            padding: 20px;
+            box-shadow: 0 15px 35px rgba(91, 59, 138, .20);
+            overflow: hidden;
+        }
+
+        .pet_care_area .pet_thumb img {
+            width: 100%;
+            height: 380px;
+            object-fit: cover;
+            display: block;
+            border-radius: 20px;
+        }
+
+        .about-cat-text .section_title h3 span {
+            color: #7b4bb3;
+        }
+
+        /* ===== GALERIA INFERIOR ===== */
+        .cat_gallery_area {
+            padding: 90px 0;
+            background: #fbf7ff;
+        }
+
+        .cat_gallery_intro {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .cat_gallery_intro h3 {
+            color: #6b3fa0;
+            font-size: 38px;
+            margin-bottom: 12px;
+        }
+
+        .cat_gallery_intro p {
+            color: #777;
+            font-size: 17px;
+        }
+
+        .cat_gallery_card {
+            background: #fff;
+            border-radius: 22px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(91, 59, 138, .12);
+            height: 100%;
+            transition: transform .3s ease, box-shadow .3s ease;
+        }
+
+        .cat_gallery_card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 14px 32px rgba(91, 59, 138, .18);
+        }
+
+        .cat_gallery_card img {
+            width: 100%;
+            height: 330px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .cat_gallery_content {
+            padding: 25px;
+            text-align: center;
+        }
+
+        .cat_gallery_content h4 {
+            color: #6b3fa0;
+            font-size: 23px;
+            margin-bottom: 10px;
+        }
+
+        .cat_gallery_content p {
+            color: #666;
+            line-height: 1.7;
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 767px) {
+            .cat_gallery_area { padding: 60px 0; }
+            .cat_gallery_intro h3 { font-size: 30px; }
+            .cat_gallery_card img { height: 280px; }
+        }
+
+        /* ===== HERO MORADO HUELLITAS DE AMOR ===== */
+        .slider_area .single_slider.slider_bg_1 {
+            background: linear-gradient(135deg, #4b247a 0%, #6f3fa1 48%, #9b63c9 100%) !important;
+            min-height: 540px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .slider_area .single_slider.slider_bg_1::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(circle at 18% 25%, rgba(255,255,255,.10) 0 7px, transparent 8px),
+                radial-gradient(circle at 28% 75%, rgba(255,255,255,.08) 0 5px, transparent 6px),
+                radial-gradient(circle at 76% 20%, rgba(255,255,255,.10) 0 6px, transparent 7px),
+                radial-gradient(circle at 88% 78%, rgba(255,255,255,.08) 0 8px, transparent 9px);
+            pointer-events: none;
+        }
+
+        .slider_area .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .slider_area .slider_text {
+            position: relative;
+            z-index: 3;
+        }
+
+        .slider_area .slider_text h3 {
+            color: #ffffff !important;
+            font-weight: 800;
+            text-shadow: 0 2px 8px rgba(0,0,0,.12);
+        }
+
+        .slider_area .slider_text h3 span {
+            color: #f3c8ff !important;
+        }
+
+        .slider_area .slider_text p {
+            color: #ffffff !important;
+        }
+
+        .slider_area .hero-badge {
+            color: #ffffff !important;
+            background: rgba(255,255,255,.15);
+            border: 1px solid rgba(255,255,255,.25);
+            border-radius: 30px;
+            padding: 8px 14px;
+        }
+
+        .slider_area .cat_hero_thumb {
+            width: 58%;
+            max-width: 780px;
+            right: -2%;
+            bottom: 0;
+            z-index: 2;
+            position: absolute;
+        }
+
+        .slider_area .cat_hero_thumb img {
+            width: 100%;
+            max-height: 650px;
+            object-fit: contain;
+            object-position: bottom center;
+            filter: drop-shadow(0 18px 18px rgba(34,12,55,.28));
+        }
+
+        @media (max-width: 991px) {
+            .slider_area .single_slider.slider_bg_1 {
+                min-height: 620px;
+                padding: 70px 0 30px;
+            }
+            .slider_area .cat_hero_thumb {
+                display: block !important;
+                position: absolute;
+                width: 52%;
+                right: -3%;
+                opacity: .95;
+            }
+            .slider_area .slider_text {
+                max-width: 58%;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .slider_area .single_slider.slider_bg_1 {
+                min-height: 680px;
+                padding-top: 55px;
+            }
+            .slider_area .slider_text {
+                max-width: 100%;
+                text-align: center;
+            }
+            .slider_area .cat_hero_thumb {
+                width: 72%;
+                right: 14%;
+                bottom: -20px;
+                opacity: 1;
+            }
+            .slider_area .slider_text p {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <div class="logo">
+                                <a href="index.html" class="nombre-clinica">
+                                    🐾 HUELLITAS DE AMOR
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="single_slider slider_bg_1 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="slider_text">
+                            <small class="hero-badge">🐾 VETERINARIA ESPECIALIZADA EN GATOS</small>
+                            <h3>Porque ellos<br> <span>también son familia</span></h3>
+                            <p>En <strong>Huellitas de Amor</strong> nos dedicamos al cuidado y bienestar de los gatos, brindándoles una atención llena de amor y confianza.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dog_thumb d-none d-lg-block cat_hero_thumb">
+                <img src="gato_huellitas_morado.png" alt="Gatito de Huellitas de Amor">
+            </div>
+        </div>
+    </div>
+    <!-- slider_area_end -->
+
+    <!-- service_area_start  -->
+    <div class="service_area">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-lg-7 col-md-10">
+                    <div class="section_title text-center mb-95">
+                        <h3>Servicios para nuestros gatos</h3>
+                        <p>Todo lo que tu compañero felino necesita para mantenerse sano, feliz y lleno de vida.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_service">
+                         <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center" style="background: none;">
+                             <div class="service_icon" style="width: 100%; height: 220px; overflow: hidden; border-radius: 15px;">
+                                 <img src="20.jpg" alt="Atención veterinaria" style="width: 100%; height: 100%; object-fit: cover;">
+                             </div>
+                         </div>
+                         <div class="service_content text-center">
+                            <h3>Atención veterinaria</h3>
+                            <p>Cuidados profesionales y personalizados para la salud de tu gato.</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_service active">
+                         <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center" style="background: none;">
+                             <div class="service_icon" style="width: 100%; height: 220px; overflow: hidden; border-radius: 15px;">
+                                 <img src="19.jpg" alt="Salud y prevención" style="width: 100%; height: 100%; object-fit: cover;">
+                             </div>
+                         </div>
+                         <div class="service_content text-center">
+                            <h3>Salud y prevención</h3>
+                            <p>Orientación para mantener a tu compañero felino sano y protegido.</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_service">
+                         <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center" style="background: none;">
+                             <div class="service_icon" style="width: 100%; height: 220px; overflow: hidden; border-radius: 15px;">
+                                 <img src="18.jpg" alt="Bienestar felino" style="width: 100%; height: 100%; object-fit: cover;">
+                             </div>
+                         </div>
+                         <div class="service_content text-center">
+                            <h3>Bienestar felino</h3>
+                            <p>Atención pensada para que tu gato se sienta seguro, tranquilo y querido.</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service_area_end -->
+
+    <!-- ACERCA DE HUELLITAS DE AMOR START -->
+    <div class="pet_care_area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-6">
+                    <div class="pet_thumb">
+                        <img src="17.jpg" alt="Gatitos dormidos en Huellitas de Amor">
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-md-6">
+                    <div class="pet_info about-cat-text">
+                        <div class="section_title">
+                            <h3><span>Acerca de</span><br>
+                                Huellitas de Amor</h3>
+                            <p>En <strong>Huellitas de Amor</strong> nos especializamos en brindar atención veterinaria exclusivamente para gatos, creando un espacio tranquilo, seguro y lleno de cariño para cada pequeño paciente.</p>
+                            <p>Sabemos que cada gato tiene una personalidad única. Por eso ofrecemos cuidados pensados para su bienestar, salud y tranquilidad.</p>
+                            <p><strong>“Cada ronroneo nos recuerda por qué elegimos cuidar de ellos.”</strong> 🐱💜</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ACERCA DE HUELLITAS DE AMOR END -->
+
+    <!-- GALERIA DE AMOR FELINO START -->
+    <section class="cat_gallery_area">
+        <div class="container">
+            <div class="cat_gallery_intro">
+                <h3>🐾 Momentos que llenan de amor nuestro corazón</h3>
+                <p>En Huellitas de Amor creemos que cada gatito merece recibir cariño, protección y los mejores cuidados.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-md-6 mb-4">
+                    <div class="cat_gallery_card">
+                        <img src="22.jpg" alt="Gatito pequeño recibiendo cariño">
+                        <div class="cat_gallery_content">
+                            <h4>Pequeñas vidas, grandes cuidados 💜</h4>
+                            <p>Desde sus primeros días, nuestros pequeños compañeros necesitan amor, protección y atención para crecer sanos y felices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 mb-4">
+                    <div class="cat_gallery_card">
+                        <img src="21.jpg" alt="Gato feliz con collar">
+                        <div class="cat_gallery_content">
+                            <h4>Una huellita que deja recuerdos 🐱</h4>
+                            <p>Cada gato tiene una forma especial de demostrar cariño. Nosotros nos encargamos de cuidar esa confianza con dedicación.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top:25px;">
+                <h3 style="color:#6b3fa0;">“Ellos nos dan su amor sin pedir nada a cambio.” ❤️</h3>
+            </div>
+        </div>
+    </section>
+    <!-- GALERIA DE AMOR FELINO END -->
+
+    <!-- BLOG DE GATITOS START -->
+    <div id="blog">
+        <div class="container">
+            <div class="blog_intro">
+                <h3>Blog de Gatitos 🐱</h3>
+                <p>Consejos, cuidados y momentos especiales para nuestros pequeños compañeros.</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="cat_blog_card">
+                        <div class="blog_img"><img src="01.jpg" alt="Gatito blanco"></div>
+                        <div class="blog_content">
+                            <h4>Un hogar lleno de amor</h4>
+                            <p>Cada gatito merece un hogar donde pueda sentirse seguro, querido y protegido.</p>
+                            <p class="frase">“El amor de un gato convierte una casa en un hogar.” ❤️</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="cat_blog_card">
+                        <div class="blog_img"><img src="02.jpg" alt="Gatito pequeño"></div>
+                        <div class="blog_content">
+                            <h4>La importancia de cuidar a tu gato</h4>
+                            <p>Una buena alimentación, higiene y atención veterinaria ayudan a mantener a nuestros gatos felices y saludables.</p>
+                            <p class="frase">“Cuidarlo es una forma de decirle cuánto lo amas.” 🐾</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="cat_blog_card">
+                        <div class="blog_img"><img src="03.jpg" alt="Gatos de diferentes colores"></div>
+                        <div class="blog_content">
+                            <h4>Cada gato es único</h4>
+                            <p>No importa su color, tamaño o personalidad. Cada gato tiene una manera especial de llenar nuestras vidas de alegría.</p>
+                            <p class="frase">“Pequeñas patitas, grandes recuerdos.” 🐾</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="cat_blog_card">
+                        <div class="blog_img"><img src="04.jpg" alt="Gato naranja"></div>
+                        <div class="blog_content">
+                            <h4>Conoce a tu compañero</h4>
+                            <p>Observar el comportamiento de tu gato te ayudará a comprender mejor sus necesidades y emociones.</p>
+                            <p class="frase">“Ellos no necesitan palabras para decirnos que nos aman.” ❤️</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="cat_blog_card">
+                        <div class="blog_img"><img src="05.jpg" alt="Persona con su gato"></div>
+                        <div class="blog_content">
+                            <h4>El vínculo entre humanos y gatos</h4>
+                            <p>Compartir tiempo con nuestros gatos crea un vínculo especial basado en confianza, cariño y compañía.</p>
+                            <p class="frase">“Un gato puede ser un pequeño compañero para toda la vida.” 🐱❤️</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="cat_blog_card">
+                        <div class="blog_img"><img src="06.jpg" alt="Veterinaria atendiendo un gato"></div>
+                        <div class="blog_content">
+                            <h4>Visitas al veterinario</h4>
+                            <p>Las revisiones veterinarias son importantes para detectar problemas y mantener la salud de nuestros gatos.</p>
+                            <p class="frase">“Prevenir también es una forma de amar.” 🩺🐾</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="cat_blog_card">
+                        <div class="blog_img"><img src="07.jpg" alt="Gato en consulta veterinaria"></div>
+                        <div class="blog_content">
+                            <h4>La salud de nuestros gatos</h4>
+                            <p>Nuestro compromiso es brindar atención, cuidado y mucho cariño a cada pequeño paciente.</p>
+                            <p class="frase">“Porque ellos también son parte de nuestra familia.” ❤️🐱</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- BLOG DE GATITOS END -->
+
+    <!-- BLOG FELINO START -->
+    <section class="blog_area section_padding" id="blog-felino">
+        <div class="container">
+            <div class="row justify-content-center"><div class="col-lg-8"><div class="section_title text-center mb-70">
+                <h3>🐱 Nuestro Blog Felino</h3><p>Consejos, cuidados y mucho amor para nuestros compañeros de cuatro patas.</p>
+            </div></div></div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6"><div class="single-blog"><div class="thumb"><img src="06.jpg" alt="Gato recibiendo cariño" class="img-fluid" style="width:100%; height:260px; object-fit:cover;"></div><div class="single-blog-content"><span>🐾 Amor felino</span><h4>El amor de un gato</h4><p><strong>“Un gato no solo llega a tu hogar; llega para convertirse en parte de tu corazón.”</strong> 💜</p><p>Los gatos pueden convertirse en compañeros maravillosos. Cada ronroneo, mirada y pequeño gesto demuestra el cariño que pueden compartir.</p></div></div></div>
+                <div class="col-lg-4 col-md-6"><div class="single-blog"><div class="thumb"><img src="12.jpg" alt="Gato durante una consulta veterinaria" class="img-fluid" style="width:100%; height:260px; object-fit:cover;"></div><div class="single-blog-content"><span>🩺 Salud felina</span><h4>Cuidar también es amar</h4><p><strong>“Cuidar su salud hoy es regalarle muchos momentos felices mañana.”</strong> 🐾</p><p>Las revisiones veterinarias ayudan a cuidar la salud de nuestros gatos y a acompañarlos durante cada etapa de su vida.</p></div></div></div>
+                <div class="col-lg-4 col-md-6"><div class="single-blog"><div class="thumb"><img src="08.jpg" alt="Gato feliz y saludable" class="img-fluid" style="width:100%; height:260px; object-fit:cover;"></div><div class="single-blog-content"><span>😻 Bienestar</span><h4>Una vida llena de ronroneos</h4><p><strong>“Los pequeños ronroneos hacen grandes momentos.”</strong> 😻</p><p>Un hogar seguro, cariño, alimentación adecuada y atención veterinaria son parte de una vida feliz para nuestros amigos felinos.</p></div></div></div>
+            </div>
+            <div class="row justify-content-center"><div class="col-lg-9"><div class="text-center" style="margin-top:60px;margin-bottom:50px;"><h3>💜 “Ellos nos dan su confianza, nosotros les damos nuestro cuidado.”</h3><p>Porque cada gato merece recibir amor, atención y una vida llena de bienestar.</p></div></div></div>
+            <div class="row justify-content-center"><div class="col-lg-8"><div class="section_title text-center mb-50"><h3>🎥 Momentos Felinos</h3><p>Aprende más sobre el cuidado y bienestar de nuestros queridos gatos.</p></div></div></div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12"><div style="margin-bottom:40px;"><h4 class="text-center">🐾 Consejos para cuidar a tu gato</h4><video controls preload="metadata" style="width:100%;border-radius:10px;"><source src="video.mp4" type="video/mp4">Tu navegador no puede reproducir este video.</video><p class="text-center" style="margin-top:15px;">💜 Pequeños cuidados hacen grandes diferencias.</p></div></div>
+                <div class="col-lg-6 col-md-12"><div style="margin-bottom:40px;"><h4 class="text-center">😻 Bienestar y felicidad felina</h4><video controls preload="metadata" style="width:100%;border-radius:10px;"><source src="03.mp4" type="video/mp4">Tu navegador no puede reproducir este video.</video><p class="text-center" style="margin-top:15px;">🐱 “Un gato feliz llena el hogar de ronroneos.”</p></div></div>
+            </div>
+            <div class="row justify-content-center"><div class="col-lg-10"><div class="text-center" style="margin-top:30px;padding:35px;border-radius:10px;background:#f8f8f8;"><h3>🐱💜 Gracias por ser parte de nuestra familia felina</h3><p>Nuestro compromiso es cuidar a cada gato con cariño, respeto y dedicación.</p></div></div></div>
+        </div>
+    </section>
+    <!-- BLOG FELINO END -->
+
+    <div class="contact_anipat anipat_bg_1">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact_text text-center">
+                        <div class="section_title text-center">
+                            <h3>¿Por qué elegir Huellitas de Amor?</h3>
+                            <p>Porque entendemos lo especial que es tu gato y le brindamos una atención profesional, humana y libre de estrés.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer_start  -->
+    <footer class="footer">
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+ 
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer_end  -->
+
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+    <script src="js/main.js"></script>
+    <script>
+        $('#datepicker').datepicker({
+            iconsLibrary: 'fontawesome',
+            disableDaysOfWeek: [0, 0],
+        });
+        $('#datepicker2').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+             rightIcon: '<span class="fa fa-caret-down"></span>'
+         }
+
+        });
+        var timepicker = $('#timepicker').timepicker({
+         format: 'HH.MM'
+     });
+    </script>
+</body>
+
+</html>
